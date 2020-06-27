@@ -53,4 +53,13 @@ public class CsvRow {
 	public Stream<Object> stream() {
 		return values.stream();
 	}
+	
+	/**
+	 * Get the size of the number of objects in this row.
+	 * 
+	 * @return Integer representing the number of values in this CsvRow.
+	 */
+	public int size() {
+		return this.values.size();
+	}
 }
